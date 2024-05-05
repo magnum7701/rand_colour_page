@@ -1,20 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 body{
-  min-height: 70vh;
-  min-width: 70vw;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .box{
-   top:50%;
-   left:50%;
+   
   display: flexbox;
   text-align:center;
   justify-content: center;
   position:absolute;
+  height: fit-content;
+  width: fit-content;
+  background-color: aquamarine;
+  padding-block:15px;
+  padding-inline: 30px;
   
 }
 .container{
   display: flex;
+  margin-top: 15px;
   justify-content: center;
     align-items: center;
+  width:100%;  
+  margin-left: inherit;
+  
+    
    
+}
+
+#haha{
+  width: fit-content;
+  padding: 5%;
 }
